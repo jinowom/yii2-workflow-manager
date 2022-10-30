@@ -22,5 +22,4 @@ composer.phar
 .DS_Store
 
 #
-src/controllers/DefaultController_bak.php
-src/controllers/StatusController_bak.php
+*_bak.php
