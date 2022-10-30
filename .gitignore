@@ -20,3 +20,7 @@ composer.phar
 
 # Mac DS_Store Files
 .DS_Store
+
+#
+#src/controllers/DefaultController.php
+#src/controllers/StatusController.php
