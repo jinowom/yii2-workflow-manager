@@ -11,7 +11,9 @@ use yii\bootstrap\ActiveForm;
 
 ?>
 
-<div class="workflow-status-form">
+<section id="content">
+    <div class="panel">
+        <div class="panel-body">
 
     <?php $form = ActiveForm::begin([
         'id' => 'Status',
@@ -98,5 +100,5 @@ use yii\bootstrap\ActiveForm;
 
     <?php ActiveForm::end(); ?>
 
-</div>
+        </div></div></section>
 

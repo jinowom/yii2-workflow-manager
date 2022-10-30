@@ -13,10 +13,6 @@ $this->params['breadcrumbs'][] = Yii::t('workflow', 'Update');
 ?>
 <div class="workflow-workflow-update">
 
-    <h1>
-        <?= Html::encode($this->title) ?>
-    </h1>
-
     <?php echo $this->render('_form', [
         'model' => $model,
     ]); ?>
