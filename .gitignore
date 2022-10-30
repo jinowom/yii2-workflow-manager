@@ -22,5 +22,5 @@ composer.phar
 .DS_Store
 
 #
-#src/controllers/DefaultController.php
-#src/controllers/StatusController.php
+src/controllers/DefaultController.php
+src/controllers/StatusController.php
