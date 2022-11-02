@@ -23,3 +23,5 @@ composer.phar
 
 #
 *_bak.php
+src/controllers/DefaultController_bak.php
+src/controllers/StatusController_bak.php
