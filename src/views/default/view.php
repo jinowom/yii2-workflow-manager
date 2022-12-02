@@ -1,12 +1,12 @@
 <?php
 /**
  * @var yii\web\View $this
- * @var jinostart\workflow\manager\models\Workflow $model
+ * @var jinowom\workflow\manager\models\Workflow $model
  */
 
-use jinostart\workflow\manager\models\Transition;
+use jinowom\workflow\manager\models\Transition;
 use yii\helpers\Html;
-use raoul2000\workflow\view\WorkflowViewWidget;
+use jinowom\workflow\view\WorkflowViewWidget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\helpers\Url;

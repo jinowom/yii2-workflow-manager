@@ -1,11 +1,11 @@
 <?php
 /**
  * @var yii\web\View $this
- * @var jinostart\workflow\manager\models\form\StatusForm $model
+ * @var jinowom\workflow\manager\models\form\StatusForm $model
  * @var ActiveForm $form
  */
 
-use jinostart\workflow\manager\models\Metadata;
+use jinowom\workflow\manager\models\Metadata;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 

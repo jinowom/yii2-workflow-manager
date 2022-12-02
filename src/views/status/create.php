@@ -1,7 +1,7 @@
 <?php
 /**
  * @var yii\web\View $this
- * @var jinostart\workflow\manager\models\form\StatusForm $model
+ * @var jinowom\workflow\manager\models\form\StatusForm $model
  */
 
 use yii\helpers\Html;

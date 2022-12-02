@@ -1,15 +1,15 @@
 <?php
 namespace jinowom\workflow\manager\components;
 
-use raoul2000\workflow\base\SimpleWorkflowBehavior;
-use raoul2000\workflow\base\Status;
-use raoul2000\workflow\base\StatusInterface;
-use raoul2000\workflow\base\Transition;
-use raoul2000\workflow\base\TransitionInterface;
-use raoul2000\workflow\base\Workflow;
-use raoul2000\workflow\base\WorkflowException;
-use raoul2000\workflow\base\WorkflowInterface;
-use raoul2000\workflow\source\IWorkflowSource;
+use jinowom\workflow\base\SimpleWorkflowBehavior;
+use jinowom\workflow\base\Status;
+use jinowom\workflow\base\StatusInterface;
+use jinowom\workflow\base\Transition;
+use jinowom\workflow\base\TransitionInterface;
+use jinowom\workflow\base\Workflow;
+use jinowom\workflow\base\WorkflowException;
+use jinowom\workflow\base\WorkflowInterface;
+use jinowom\workflow\source\IWorkflowSource;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\BaseObject;
@@ -112,9 +112,9 @@ class WorkflowDbSource extends BaseObject implements IWorkflowSource
      * @var array
      */
     private $_classMap = [
-        self::TYPE_WORKFLOW => 'raoul2000\workflow\base\Workflow',
-        self::TYPE_STATUS => 'raoul2000\workflow\base\Status',
-        self::TYPE_TRANSITION => 'raoul2000\workflow\base\Transition'
+        self::TYPE_WORKFLOW => 'jinowom\workflow\base\Workflow',
+        self::TYPE_STATUS => 'jinowom\workflow\base\Status',
+        self::TYPE_TRANSITION => 'jinowom\workflow\base\Transition'
     ];
 
     /**
@@ -346,7 +346,7 @@ class WorkflowDbSource extends BaseObject implements IWorkflowSource
             //throw new WorkflowException('No workflow found with id ' . $id);
         }
         return [
-            'class' => 'raoul2000\workflow\base\Workflow',
+            'class' => 'jinowom\workflow\base\Workflow',
             'id' => $workflowModel->id,
             Workflow::PARAM_INITIAL_STATUS_ID => $workflowModel->id . self::SEPARATOR_STATUS_NAME . $workflowModel->initial_status_id,
             'source' => $this

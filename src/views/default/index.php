@@ -3,7 +3,7 @@
  * @var yii\web\View $this
  */
 
-use jinostart\workflow\manager\models\Workflow;
+use jinowom\workflow\manager\models\Workflow;
 use yii\bootstrap\Nav;
 use yii\helpers\Html;
 use yii\grid\GridView;
