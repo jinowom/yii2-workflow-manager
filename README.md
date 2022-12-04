@@ -1,6 +1,12 @@
 jinowom-workflow
 ==================
 jinowom-workflow Manager for Yii2
+ 友情提示：
+ 本程序代码仅供特定业务自用;
+ 如自行使用,不确保其在任何环境中的可用性。
+ tips:
+ This program code is only used for specific business;
+ If it is used by itself, its availability in any environment is not guaranteed.
 
 Installation
 ------------
